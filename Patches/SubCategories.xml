@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WallTurrets"]/defNames</xpath>
+				<value>
+				<li>Turret_Gun_Simp</li>
+				</value>
+			 </Operation>
+</Patch>
+
+
+
+
+

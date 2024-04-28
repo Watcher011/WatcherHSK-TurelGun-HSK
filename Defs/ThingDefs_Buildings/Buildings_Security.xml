@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_M249S</defName>
+		<label>5.56x45mm M249 MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MHMG</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>M249 LMG SAW MG, крупнокалиберный пулемет. Он имеет магазин на 120 патронов и стреляет очередями по 20 патронов. Не очень точен, но хорош в ведении огня на подавление.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_HHMG>1</Gun_HHMG>
+		</costList>
+		<building>
+			<turretGunDef>Gun_M249S</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+			<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_Galil</defName>
+		<label>7.62x39mm Galil MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/Galil</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Боевое оружие старинного образца. Хорошая дальность, высокая мощность, низкая скорострельность.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<RF_Gun_Galil>1</RF_Gun_Galil>
+		</costList>
+		<building>
+			<turretGunDef>Gun_GalilS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_SawGun</defName>
+		<label>30x173mm SawGun MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/SawGun</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Этот крупнокалиберный пулемет, известный как "Лесоповал" более уместно смотрелся бы на станковой турели, но огры предпочитают носить его в руках.\nВполне оправдывает своё название: имея достаточное количество патронов, вы можете забыть о назначении топора.\n\nИспользует боеприпасы: 30x165mm патрон</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_SawGun>1</Gun_SawGun>
+		</costList>
+		<building>
+			<turretGunDef>Gun_SawGunS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_LMG</defName>
+		<label>5.56x45mm L-15 MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/Gun_LMG</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Легкий пулемет.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_LMG>1</Gun_LMG>
+		</costList>
+		<building>
+			<turretGunDef>Gun_LMGS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_MA39X</defName>
+		<label>5.56x45mm MA39X MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MA39X</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Система индивидуального боевого оружия MA39X (MA39X ICWS или штурмовая винтовка MA39X) — винтовка для ближнего боя UNSC.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_HeavyCombatRifle>1</Gun_HeavyCombatRifle>
+		</costList>
+		<building>
+			<turretGunDef>Gun_HeavyCombatRifleS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_M56F</defName>
+		<label>50BMG M56Smartgun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/M56</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>M56 Smartgun — переносной крупнокалиберный пулемет с возможностью автоматического наведения под патроны тяжелого калибра. В частности, он используется Колониальной морской пехотой США. Это больно, как ад.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_M56_USCM>1</Gun_M56_USCM>
+		</costList>
+		<building>
+			<turretGunDef>Gun_M56_USCMS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_M60F</defName>
+		<label>7.62x51mm M60E</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/M60</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Пулемет общего назначения. Он имеет магазин на 100 патронов и стреляет очередями по 12 патронов. Получил прозвище «Свинья» из-за своих громоздких размеров и аппетита к боеприпасам.\nКалибр: 7,62x51 мм..</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_M60GPMG>1</Gun_M60GPMG>
+		</costList>
+		<building>
+			<turretGunDef>Gun_M60S</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_MinigunS</defName>
+		<label>5.56x45mm M60E</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/Microgun</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Многоствольный пулемет с чрезвычайно высокой скорострельностью. Построен на сервоприводах.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_Minigun>1</Gun_Minigun>
+		</costList>
+		<building>
+			<turretGunDef>Gun_MinigunS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_C2</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_FlamethrowerRM</defName>
+		<label>Стационарный огнемёт</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FlameThrower2</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<description>Нетрадиционная конструкция огнемета, в которой вместо установленного сзади бака используются сменные канистры с топливом под давлением. Менее обременительно, но требует частой перезагрузки/Установлен как стационарное орудие.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<FlamethrowerRM>1</FlamethrowerRM>
+		</costList>
+		<building>
+			<turretGunDef>Gun_FlamethrowerRMS</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_C2</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

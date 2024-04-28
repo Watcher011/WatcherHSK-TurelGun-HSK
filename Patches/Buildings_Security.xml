@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		 <li>WatcherXI.HSK.Simp</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+		<li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+         <ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_Gun_Simp</defName>
+        <label>ПКМ-Заказной</label>
+        <description>ПКМ — пулемёт Калашникова модернизированный. Собранный по спецзаказу. Ствол и часть деталей заменена под натовский патрон (762x51mmNATO). Также имеет гравировку на прикладе"Simpay не должен страдать" установлена как стационарная огневая точка</description>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/PKMS</uiIconPath>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1100</WorkToBuild>
+			<Mass>18.5</Mass>
+			<Bulk>35</Bulk>
+		</statBases>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+		  <ComponentIndustrial>2</ComponentIndustrial>
+			<Gun_Simp>1</Gun_Simp>
+		</costList>
+		<building>
+			<turretGunDef>Gun_SimpS</turretGunDef>
+			<turretTopDrawSize>1.2</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_M240B</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Fortification_B2</li>
+		</researchPrerequisites>
+	    </ThingDef>
+        </value>
+		</li>
+		</operations>
+	</match>
+	</Operation>
+</Patch>

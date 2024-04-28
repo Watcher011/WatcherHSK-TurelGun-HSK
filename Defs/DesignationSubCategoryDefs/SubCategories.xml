@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_WallTurrets</defName>
+		<label>Пулемётные точки</label>
+		<description>Пулемётные точки - сооружение (или окоп для пулемёта), созданное для установки пулемётной позиции, обычно хорошо замаскированное, имеющий лёгкое перекрытие (ДЗОТ), защищающее от осколков снарядов и шрапнели, и открытый с тылу.</description>
+		<defNames>
+			<li>Turret_M249S</li>
+			<li>Turret_LMG</li>
+			<li>Turret_MA39X</li>
+			<li>Turret_MinigunS</li>
+			<li>Turret_Galil</li>
+			<li>Turret_M60F</li>
+			<li>Turret_M56F</li>
+			<li>Turret_SawGun</li>
+			<li>Turret_FlamethrowerRM</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+
+</Defs>
+
+
+
